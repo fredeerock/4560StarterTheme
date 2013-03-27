@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="<?php bloginfo( 'charset' ); ?>
-  " />
+  <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <title><?php wp_title(); ?></title>
-  <meta name="description" content="<?php bloginfo( 'description' ); ?>
-  ">
+  <meta name="description" content="<?php bloginfo( 'description' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Le styles -->
-  <link href="<?php echo get_template_directory_uri(); ?>
-  /css/bootstrap.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>
-  /css/bootstrap-responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>
-  " type="text/css" media="screen" />
+  <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
